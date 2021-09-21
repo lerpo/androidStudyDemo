@@ -1,17 +1,17 @@
 package com.example.androiddemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_view);
     }
 
     public void linearLayoutAction(View view){
@@ -29,22 +29,4 @@ public class MainActivity extends AppCompatActivity {
     public void frameLayoutAction(View view){
         startActivity(new Intent(this, FrameLayoutActivity.class));
     }
-
-    public void ViewAction(View view){
-        startActivity(new Intent(this, ViewActivity.class));
-    }
-
-    public void TextViewAction(View view){
-        startActivity(new Intent(this, TextViewActivity.class));
-    }
-
-    public void EditTextAction(View view){
-        startActivity(new Intent(this, EditTextActivity.class));
-    }
-
-    public void ImageViewAction(View view){
-        startActivity(new Intent(this, ImageViewActivity.class));
-    }
-
-
 }

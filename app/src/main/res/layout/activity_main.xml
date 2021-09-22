@@ -104,6 +104,30 @@
         android:onClick="ImageViewAction"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="RecyclerView"
+        android:clickable="true"
+        android:onClick="RecyclerViewAction"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="自定义组件"
+        android:clickable="true"
+        android:onClick="UIViewAction"
+        />
+
 
 
 </LinearLayout>

@@ -53,5 +53,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, MyUIActivity.class));
     }
 
+    public void DataStoreAction(View view){
+        startActivity(new Intent(this, DataStoreActivity.class));
+    }
+
 
 }

@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
     public void RecyclerViewAction(View view){
         startActivity(new Intent(this, RecyclerViewActivity.class));
     }
+
+    public void RecyclerView2Action(View view){
+        startActivity(new Intent(this, RecyclerViewActivity2.class));
+    }
     public void UIViewAction(View view){
         startActivity(new Intent(this, MyUIActivity.class));
     }

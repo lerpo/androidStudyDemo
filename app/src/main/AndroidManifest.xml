@@ -34,6 +34,7 @@
         <activity android:name=".EditTextActivity"/>
         <activity android:name="ImageViewActivity"/>
         <activity android:name=".RecyclerViewActivity"/>
+        <activity android:name=".RecyclerViewActivity2"/>
         <activity android:name=".MyUIActivity"/>
         <activity android:name=".DataStoreActivity"/>
 

@@ -2,10 +2,10 @@ package com.example.androiddemo;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.OrientationHelper;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.androiddemo.adapter.MyRecyclerViewAdapter;
 
 import java.util.ArrayList;
 

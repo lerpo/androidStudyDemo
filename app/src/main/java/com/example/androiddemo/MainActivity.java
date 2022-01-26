@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void linearLayoutAction(View view){
@@ -61,5 +62,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, DataStoreActivity.class));
     }
 
+    public void NetRequestAction(View view) {
+        startActivity(new Intent(this,NetRequestActivity.class));
+    }
 
 }

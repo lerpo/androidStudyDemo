@@ -15,6 +15,7 @@
         android:layout_margin="15dp"
         android:textColor="@color/black"
         android:hint="请输入账号"
+        android:background="@drawable/round"
         />
 
     <EditText
@@ -24,6 +25,7 @@
         android:layout_margin="15dp"
         android:textColor="@color/black"
         android:inputType="textPassword"
+        android:background="@drawable/round"
         android:hint="请输入密码"
         />
 
@@ -34,7 +36,7 @@
         android:layout_margin="15dp"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:background="@color/purple_500"
+        android:background="@drawable/round"
         android:textAlignment="center"
         android:text="登录"
         />

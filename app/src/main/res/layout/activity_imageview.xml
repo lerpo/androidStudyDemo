@@ -8,10 +8,12 @@
     android:padding="10dp"
     tools:context=".ImageViewActivity">
     <ImageView
+        android:id="@+id/action_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="15dp"
         android:layout_margin="15dp"
-        android:src="@drawable/ui_helplogo"
+        android:src="@drawable/head1"
+        android:scaleType="fitCenter"
         />
 </LinearLayout>

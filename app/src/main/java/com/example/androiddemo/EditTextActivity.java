@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class EditTextActivity extends AppCompatActivity {
@@ -40,6 +40,13 @@ public class EditTextActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 etOne.setText("HI EZR");
+            }
+        });
+        loginBtn.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(EditTextActivity.this,"hello",Toast.LENGTH_LONG).show();
+                return false;
             }
         });
     }

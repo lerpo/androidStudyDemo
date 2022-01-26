@@ -11,7 +11,8 @@ public class TextViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_textview);
         myTextView = findViewById(R.id.textView);
-        myTextView.setText("EZR EZR");
+
+        myTextView.setText("hello");
         myTextView.setTextSize(20);
     }
 }
